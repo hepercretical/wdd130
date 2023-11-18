@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+:root {
+    --primary-color: #001e2e;
+    --secondary-color: #3B3103;
+    --accent1-color: #A6B5BB;
+    --accent2-color: #59ffa0;
+
+    --heading-font: 'Kdam Thmor Pro', sans-serif;
+    --paragraph-font: 'Russo One', sans-serif;
+
+    --nav-background-color: #001e2e;
+    --nav-link-color: #59ffa0;
+    --nav-hover-link-color: #3B3103;
+    --nav-hover-background-color: #A6B5BB;
+
+    --site-max-width: 960px;
+}
+
+body {
+    max-width: var(--site-max-width);
+}
+
+h1 {
+    font-family: var(--heading-font);
+    background-color: rgba(89, 255, 160, 0.5);
+    color: var(--secondary-color);
+    position: absolute;
+    top: 175px;
+    left: 240px;
+}
+
+article {
+    background-color: rgba(166, 181, 187, 0.5);
+    padding: 10px;
+    position: absolute;
+    top: 300px;
+    left: 75px;
+    width: 500px;
+}
+
+.hero article img{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: -30px;
+    left: 550px;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+footer {
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
