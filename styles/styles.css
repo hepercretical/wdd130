@@ -50,7 +50,7 @@ nav {
 
 nav a {
     display: block;
-    padding: 0.5 rem;
+    padding: 0.5rem;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
@@ -60,13 +60,12 @@ nav a {
 h1 {
     color: steelblue;
     border-bottom: 1px solid steelblue;
-
 }
 
 aside h2 {
     position: absolute;
-    top: 25;
-    left: 80px;
+    top: 20px;
+    left: 75px;
 }
 
 header, .grid, footer {
