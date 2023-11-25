@@ -1,53 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
 :root {
-    --primary-color: #001e2e;
-    --secondary-color: #3B3103;
-    --accent1-color: #A6B5BB;
-    --accent2-color: #59ffa0;
+    --primary-color: #001940;
+    --secondary-color: #486680;
+    --accent1-color: #9b3538df;
+    --accent2-color: #7b607fdf;
 
     --heading-font: 'Kdam Thmor Pro', sans-serif;
     --paragraph-font: 'Russo One', sans-serif;
 
-    --nav-background-color: #001e2e;
-    --nav-link-color: #59ffa0;
-    --nav-hover-link-color: #3B3103;
-    --nav-hover-background-color: #A6B5BB;
+    --nav-background-color: #ba9e6e;
+    --nav-link-color: #4f8e95;
+    --nav-hover-link-color: #3a3456;
+    --nav-hover-background-color: #3a3456;
 
-    --site-max-width: 960px;
+    --site-max-width: 850px;
 }
 
 body {
     max-width: var(--site-max-width);
 }
 
-h1 {
-    font-family: var(--heading-font);
-    background-color: rgba(89, 255, 160, 0.5);
-    color: var(--secondary-color);
-    position: absolute;
-    top: 175px;
-    left: 240px;
-}
-
-article {
-    background-color: rgba(166, 181, 187, 0.5);
-    padding: 10px;
-    position: absolute;
-    top: 300px;
-    left: 75px;
-    width: 500px;
-}
-
-.hero article img{
-    width: 250px;
-    height: auto;
-    position: absolute;
-    top: -30px;
-    left: 550px;
-}
-
-h2 {
+h1, h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
@@ -61,12 +35,41 @@ footer {
     text-align: center;
 }
 
-.hero img {
-    display: block;
+.sociallinks a {
+    text-decoration: none;
+}
+
+section img {
     width: 100%;
     height: auto;
 }
 
-.sociallinks a {
-    text-decoration: none;
+/* .hero stuff */
+.hero img {
+    display: block;
+    width: var(--site-max-width);
+    height: auto;
+}
+
+.hero h1 {
+    width: var(--site-max-width);
+    background-color: var(--accent1-color);
+    text-align: center;
+    position: absolute;
+    top: 175px;
+}
+
+.hero article {
+    width: 600px;
+    background-color: var(--accent2-color);
+    padding: 5px;
+    position: absolute;
+    top: 250px;
+    left: 125px;
+}
+
+.hero article img {
+    width: 35%;
+    height: auto;
+    float: right;
 }
