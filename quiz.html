@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="stylesheet" href="styles/quiz.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="An online quiz about HTML and CSS with at least four (4) questions about HTML and/or CSS.">
+        <meta name="author" content="Talmage Trebilcock">
+        <title>WDD 130 | Talmage Trebilcock | Quiz Form</title>
+    </head>
+    <body>
+        <header>
+            <h1>Basic HTML and CSS Quiz</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <!-- form elements -->
+                    <label for="q1">1. What does the acronym HTML stand for?</label>
+                    <br>
+                    <input type="text" id="q1" name="q1">
+                    <br><br>
+                    <label for="q2">2. Explain the importance of meta tags in HTML.</label>
+                    <br>
+                    <textarea id="q2" name="q2"></textarea>
+                    <br><br>
+                    <label for="q3">3. Which of the following is the CSS universal selector?</label>
+                    <br>
+                    <select id="q3" name="q3">
+                        <option value="" selected disabled>Choose One...</option>
+                        <option value="~">~</option>
+                        <option value="&">&</option>
+                        <option value="*">*</option>
+                        <option value="%">%</option>
+                    </select>
+                    <br><br>
+                    <label for="q4">4. What is the width given in the following declaration?</label>
+                    <br>
+                    <img src="images/q4.png" alt="Question 4 Image">
+                    <br>
+                    <input type="number" id="q4" name="q4">
+                    <br><br>
+                    <button type="submit">Submit Quiz</button>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</html>
