@@ -34,6 +34,12 @@ p {
     padding: 10px;
 }
 
+iframe {
+    border: 0;
+    width: 100%;
+    height: 200px;
+}
+
 /* nav bar stuff */
 header img {
     padding: 1rem;
@@ -151,27 +157,59 @@ footer nav a {
 }
 /* end footer stuff*/
 
+/* company information stuff*/
+.companyinformation {
+    width: 25%;
+    padding: 1%;
+    background-color: var(--nav-link-color);
+}
+
+.companyinformation p {
+    padding: 0px;
+    color: white;
+}
+/* end company information stuff*/
+
+/* employees stuff */
+.employees {
+    width: 69%;
+    padding: 1%;
+    float: right;
+    background-color: var(--nav-hover-link-color);
+}
+
+.employeeimg {
+    display: grid;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.employees img {
+    height: 300px;
+    width: auto;
+}
+/* end employees stuff */
+
 /* form stuff */
+.form {
+    margin: auto;
+    width: 50%;
+    padding: 25px;
+}
+
 fieldset {
-    background-color: #eeeeee;
-    width: 100%
-}
-
-label {
-    padding: 10px
-}
-
-input, textarea, select, button {
-    width: 75%;
+    background-color: var(--accent2-color);
 }
 
 textarea {
+    width: 98%;
     height: 100px;
 }
 
 button {
     padding: 10px;
-    background-color: #010080;
+    background-color: var(--nav-background-color);
     color: white;
 }
 /* end form stuff */

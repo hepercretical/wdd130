@@ -19,41 +19,52 @@
             </nav>
         </header>
         <main>
-            <h1>About Us!</h1>
+            <h1>Contact Us!</h1>
+            <div class="employees">
+                <h2>Employees</h2>
+                <div class="employeeimg">
+                    <h3></h3>
+                    <figure>
+                        <img src="images/stevenweber.png" alt="employee1, Steven Weber">
+                        <figcaption>Steven Weber</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/danielbarker.png" alt="employee2, Daniel Barker">
+                        <figcaption>Daniel Barker</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/jamesfrancisco.png" alt="employee3, James Francisco">
+                        <figcaption>James Francisco</figcaption>
+                    </figure>
+                </div>
+            </div>
             <div class="companyinformation">
                 <h2>Company Information</h2>
+                <p>Address:</p>
+                <p>10160 Hwy 19 W,</p>
+                <p>Bryson City, NC 28713, USA</p>
+                <p>Phone Number: 505-842-5662</p>
+                <p>Email: support@talmagerafting.net</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1627.1865287497285!2d-83.558945!3d35.346387!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885934fca3d02379%3A0xb7e9cdc61a0254!2s10160%20Hwy%2019%20W%2C%20Bryson%20City%2C%20NC%2028713%2C%20USA!5e0!3m2!1sen!2sng!4v1701577609751!5m2!1sen!2sng" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-
-            <div class="employee profile images">
-                <h2>Employees</h2>
-            </div>
-
             <div class="form">
+                <h2>Submit a Message</h2>
                 <fieldset>
-                    <label for="name">Username:</label>
-                    <br>
-                    <input type="text" id="name" name="name">
-                    <br><br>
-                    <label for="email">Email Address:</label>
-                    <br>
-                    <input type="text" id="email" name="email">
-                    <br><br>
-                    <label for="purpose">Purpose of your message:</label>
-                    <br>
+                    <label for="name">Username:</label><br>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="email">Email Address:</label><br>
+                    <input type="text" id="email" name="email"><br><br>
+                    <label for="purpose">Purpose of your message:</label><br>
                     <select id="purpose" name="purpose">
                         <option value="" selected disabled>Choose One...</option>
                         <option value="generalinquiry">General Inquiry</option>
                         <option value="reservationquestion">Reservation Question</option>
                         <option value="websitesuggestion">Website Suggestion</option>
-                    </select>
-                    <br><br>
+                    </select><br><br>
                     <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-                    <label for="subscribe"> Please subscribe me to the monthy newsletter.</label><br>
-                    <br><br>
-                    <label for="message">Your message:</label>
-                    <br>
-                    <textarea id="message" name="message"></textarea>
-                    <br><br>
+                    <label for="subscribe"> Please subscribe me to the monthy newsletter.</label><br><br><br>
+                    <label for="message">Your message:</label><br>
+                    <textarea id="message" name="message"></textarea><br><br>
                     <button type="submit">Submit Message</button>
                 </fieldset>
             </div>
