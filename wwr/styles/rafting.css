@@ -150,3 +150,28 @@ footer nav a {
     color: var(--nav-link-color);
 }
 /* end footer stuff*/
+
+/* form stuff */
+fieldset {
+    background-color: #eeeeee;
+    width: 100%
+}
+
+label {
+    padding: 10px
+}
+
+input, textarea, select, button {
+    width: 75%;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 10px;
+    background-color: #010080;
+    color: white;
+}
+/* end form stuff */
