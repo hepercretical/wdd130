@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="stylesheet" href="styles/rafting.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="The contact page for the rafting website project. Allows the user to contact the rafting company.">
+        <meta name="author" content="Talmage Trebilcock">
+        <title>Talmage's Rafting Co. - Contact Us</title>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Rafting Site Logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Plan a Trip</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <h1>About Us!</h1>
+            <div class="companyinformation">
+                <h2>Company Information</h2>
+            </div>
+
+            <div class="employee profile images">
+                <h2>Employees</h2>
+            </div>
+
+            <div class="form">
+                <fieldset>
+                    <label for="name">Username:</label>
+                    <br>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+                    <label for="email">Email Address:</label>
+                    <br>
+                    <input type="text" id="email" name="email">
+                    <br><br>
+                    <label for="purpose">Purpose of your message:</label>
+                    <br>
+                    <select id="purpose" name="purpose">
+                        <option value="" selected disabled>Choose One...</option>
+                        <option value="generalinquiry">General Inquiry</option>
+                        <option value="reservationquestion">Reservation Question</option>
+                        <option value="websitesuggestion">Website Suggestion</option>
+                    </select>
+                    <br><br>
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    <label for="subscribe"> Please subscribe me to the monthy newsletter.</label><br>
+                    <br><br>
+                    <label for="message">Your message:</label>
+                    <br>
+                    <textarea id="message" name="message"></textarea>
+                    <br><br>
+                    <buttom type="submit">Submit Message</buttom>
+                </fieldset>
+            </div>
+        </main>
+        <footer>
+            <p>&copy;2023 🌊 Talmage's Rafting Company 🌊 Talmage Trebilcock</p>
+            <nav class="sociallinks">
+                <a href="https://facebook.com">
+                    <img src="images/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.png" alt="Instagram">
+                </a>
+            </nav>
+        </footer>
+    </body> 
+</html>
