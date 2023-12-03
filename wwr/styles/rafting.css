@@ -213,3 +213,7 @@ button {
     color: white;
 }
 /* end form stuff */
+
+h3 {
+    color: var(--nav-hover-link-color);
+}
