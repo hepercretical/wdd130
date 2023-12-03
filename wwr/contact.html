@@ -49,24 +49,31 @@
             </div>
             <div class="form">
                 <h2>Submit a Message</h2>
-                <fieldset>
-                    <label for="name">Username:</label><br>
-                    <input type="text" id="name" name="name"><br><br>
-                    <label for="email">Email Address:</label><br>
-                    <input type="text" id="email" name="email"><br><br>
-                    <label for="purpose">Purpose of your message:</label><br>
-                    <select id="purpose" name="purpose">
-                        <option value="" selected disabled>Choose One...</option>
-                        <option value="generalinquiry">General Inquiry</option>
-                        <option value="reservationquestion">Reservation Question</option>
-                        <option value="websitesuggestion">Website Suggestion</option>
-                    </select><br><br>
-                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-                    <label for="subscribe"> Please subscribe me to the monthy newsletter.</label><br><br><br>
-                    <label for="message">Your message:</label><br>
-                    <textarea id="message" name="message"></textarea><br><br>
-                    <button type="submit">Submit Message</button>
-                </fieldset>
+                <form>
+                    <fieldset>
+                        <label for="name">Username:</label><br>
+                        <input type="text" id="name" name="name"><br><br>
+
+                        <label for="email">Email Address:</label><br>
+                        <input type="text" id="email" name="email"><br><br>
+
+                        <label for="purpose">Purpose of your message:</label><br>
+                        <input type="radio" id="generalinquiry" name="purpose" value="generalinquiry">
+                        <label for="generalinquiry">General Inquiry</label><br>
+                        <input type="radio" id="reservationquestion" name="purpose" value="reservationquestion">
+                        <label for="reservationquestion">Reservation Question</label><br>
+                        <input type="radio" id="websitesuggestion" name="purpose" value="websitesuggestion">
+                        <label for="websitesuggestion">Website Suggestion</label><br><br>
+                        
+                        <label for="message">Your message:</label><br>
+                        <textarea id="message" name="message"></textarea><br><br>
+
+                        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                        <label for="subscribe"> Please subscribe me to the monthy newsletter.</label><br><br>
+
+                        <button type="submit">Submit Message</button>
+                    </fieldset>
+                </form>
             </div>
         </main>
         <footer>
