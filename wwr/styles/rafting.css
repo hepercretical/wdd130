@@ -241,3 +241,54 @@ h3 {
     padding-bottom: 25px;
 }
 /* end gotocontact stuff */
+
+/* headingmessage */
+.headingmessage h1 {
+    width: 100%;
+    position: absolute;
+    top: 300px;
+    background-color: #ba9e6eaa;
+    padding: 15px;
+}
+
+.headingmessage img {
+    width: 100%;
+}
+/* end headingmessage */
+
+/* newsletter */
+.newsletter {
+    width: 45%;
+    padding: 2.5%;
+    float: right;
+}
+/* end newsletter */
+
+/* call to action */
+.calltoaction {
+    width: 45%;
+    padding: 2.5%;
+}
+/* end call to action */
+
+/* additional */
+.additional {
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+    background-color: var(--nav-hover-link-color);
+    display: grid;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.additional img {
+    height: 250px;
+    width: auto;
+}
+
+.side1, .side2 {
+    width: 42%;
+}
+/* end additional */
