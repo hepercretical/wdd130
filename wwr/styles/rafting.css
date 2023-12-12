@@ -217,3 +217,27 @@ button {
 h3 {
     color: var(--nav-hover-link-color);
 }
+
+/* trips stuff */
+.trips {
+    width: 100%;
+    padding: 1%;
+    background-color: var(--nav-hover-link-color);
+    display: grid;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.trips img {
+    height: 210px;
+    width: auto;
+}
+/* end trips stuff */
+
+/* gotocontact stuff */
+.gotocontact {
+    text-align: center;
+    padding-bottom: 25px;
+}
+/* end gotocontact stuff */
