@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
 :root {
-    --primary-color: #001940;
-    --secondary-color: #486680;
-    --accent1-color: #9b3538df;
-    --accent2-color: #7b607fdf;
+    --primary-color: #000000;
+    --secondary-color: #003F5F;
+    --accent1-color: #FF9CA0df;
+    --accent2-color: #B289B8;
 
     --heading-font: 'Kdam Thmor Pro', sans-serif;
     --paragraph-font: 'Russo One', sans-serif;
 
     --nav-background-color: #3a3456;
-    --nav-link-color: #4f8e95;
-    --nav-hover-link-color: #ba9e6e;
+    --nav-link-color: #FF9B44;
+    --nav-hover-link-color: #E7C589;
     --nav-hover-background-color: #3a3456;
 
     --site-max-width: 100%;
@@ -137,6 +137,7 @@ figcaption {
 /* footer stuff */
 footer p {
     text-align: center;
+    color: white;
 }
 
 footer nav, footer {
@@ -153,7 +154,11 @@ footer nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: var(--nav-link-color);
+    color: white;
+}
+
+footer a {
+    color: white;
 }
 /* end footer stuff*/
 
@@ -166,7 +171,7 @@ footer nav a {
 
 .companyinformation p {
     padding: 0px;
-    color: white;
+    color: black;
 }
 /* end company information stuff*/
 
@@ -247,7 +252,7 @@ h3 {
     width: 100%;
     position: absolute;
     top: 300px;
-    background-color: #ba9e6eaa;
+    background-color: #E7C589aa;
     padding: 15px;
 }
 
@@ -290,5 +295,9 @@ h3 {
 
 .side1, .side2 {
     width: 42%;
+}
+
+.additional a {
+    color: black;
 }
 /* end additional */
